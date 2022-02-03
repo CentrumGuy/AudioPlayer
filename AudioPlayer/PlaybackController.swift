@@ -25,7 +25,7 @@ class PlaybackController: UIViewController {
         stackView.spacing = view.bounds.height/32
         
         albumImageView.layer.cornerRadius = 16
-        albumImageBackgroundView.layer.shadowOpacity = 0.1
+        albumImageBackgroundView.layer.shadowOpacity = 0.15
         albumImageBackgroundView.layer.shadowRadius = 15
         albumImageBackgroundView.layer.shadowOffset = CGSize(width: 0, height: 6)
     }
