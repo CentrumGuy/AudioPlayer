@@ -26,7 +26,7 @@
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gradient 1" translatesAutoresizingMaskIntoConstraints="NO" id="VWG-L8-KVF">
                                                 <rect key="frame" x="0.0" y="0.0" width="326" height="326"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                             </imageView>
                                         </subviews>
                                         <constraints>
@@ -189,6 +189,9 @@
         <image name="Next Track" width="100" height="100"/>
         <image name="Play Icon" width="100" height="100"/>
         <image name="Previous Track" width="100" height="100"/>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
