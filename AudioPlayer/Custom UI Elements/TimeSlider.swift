@@ -70,9 +70,9 @@ open class TimeSlider: UIView, UIGestureRecognizerDelegate {
             NSLayoutConstraint(item: mediaCompletionView, attribute: .left, relatedBy: .equal, toItem: view, attribute: .left, multiplier: 1, constant: 0),
             NSLayoutConstraint(item: mediaCompletionView, attribute: .right, relatedBy: .equal, toItem: mediaProgressIndicator, attribute: .centerX, multiplier: 1, constant: 0),
             NSLayoutConstraint(item: timePassedLabel, attribute: .left, relatedBy: .equal, toItem: view, attribute: .left, multiplier: 1, constant: 0),
-            NSLayoutConstraint(item: timePassedLabel, attribute: .top, relatedBy: .equal, toItem: mediaProgressIndicator, attribute: .bottom, multiplier: 1, constant: 6),
+            NSLayoutConstraint(item: timePassedLabel, attribute: .centerY, relatedBy: .equal, toItem: view, attribute: .centerY, multiplier: 1, constant: 20),
             NSLayoutConstraint(item: timeRemainingLabel, attribute: .right, relatedBy: .equal, toItem: view, attribute: .right, multiplier: 1, constant: 0),
-            NSLayoutConstraint(item: timeRemainingLabel, attribute: .top, relatedBy: .equal, toItem: mediaProgressIndicator, attribute: .bottom, multiplier: 1, constant: 6),
+            NSLayoutConstraint(item: timeRemainingLabel, attribute: .centerY, relatedBy: .equal, toItem: view, attribute: .centerY, multiplier: 1, constant: 20),
         ]
         
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|[mediaCompletionView]|", options: [], metrics: nil, views: ["mediaCompletionView": mediaCompletionView])
@@ -212,7 +212,7 @@ open class TimeSlider: UIView, UIGestureRecognizerDelegate {
     
         var constraints: [NSLayoutConstraint] = [
             mediaCompletionConstraint,
-            NSLayoutConstraint(item: mediaProgressView, attribute: .centerY, relatedBy: .equal, toItem: self, attribute: .centerY, multiplier: 1, constant: 0)
+            NSLayoutConstraint(item: mediaProgressView, attribute: .centerY, relatedBy: .equal, toItem: self, attribute: .centerY, multiplier: 1, constant: -10)
         ]
         
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|[view]|", options: [.directionLeftToRight], metrics: nil, views: ["view": mediaProgressView])
