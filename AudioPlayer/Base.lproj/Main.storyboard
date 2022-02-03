@@ -87,7 +87,7 @@
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" image="Previous Track"/>
                                                                 <connections>
-                                                                    <action selector="didTapPreviousButton:" destination="MOP-ia-wHR" eventType="touchUpInside" id="nYh-Qr-hpG"/>
+                                                                    <action selector="didTapPreviousSongButton:" destination="MOP-ia-wHR" eventType="touchUpInside" id="SXW-LO-pE3"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -131,7 +131,7 @@
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" image="Next Track"/>
                                                                 <connections>
-                                                                    <action selector="didTapNextButton:" destination="MOP-ia-wHR" eventType="touchUpInside" id="ciE-LL-f9t"/>
+                                                                    <action selector="didTapNextSongButton:" destination="MOP-ia-wHR" eventType="touchUpInside" id="09P-cf-ggh"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -171,6 +171,9 @@
                     <connections>
                         <outlet property="albumImageBackgroundView" destination="tnv-8x-YEa" id="hvB-Aj-UQH"/>
                         <outlet property="albumImageView" destination="VWG-L8-KVF" id="O3Q-tp-dF9"/>
+                        <outlet property="nextSongButton" destination="tHM-7e-3vv" id="yJ1-k9-dFp"/>
+                        <outlet property="playPauseButton" destination="bNa-dc-zvr" id="dzb-oD-rKR"/>
+                        <outlet property="previousSongButton" destination="cKQ-yn-PyI" id="vnm-NQ-QDX"/>
                         <outlet property="songDetailsLabel" destination="Le2-QE-rxp" id="J5T-dp-AjC"/>
                         <outlet property="songTitleLabel" destination="QBg-X3-GZN" id="okz-8V-U5A"/>
                         <outlet property="stackView" destination="DlR-pL-uBn" id="gM6-pu-aYu"/>

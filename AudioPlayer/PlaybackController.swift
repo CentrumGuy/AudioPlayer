@@ -15,6 +15,9 @@ class PlaybackController: UIViewController {
     @IBOutlet private weak var albumImageView: UIImageView!
     @IBOutlet private weak var songTitleLabel: UILabel!
     @IBOutlet private weak var songDetailsLabel: UILabel!
+    @IBOutlet private weak var previousSongButton: UIButton!
+    @IBOutlet private weak var playPauseButton: UIButton!
+    @IBOutlet private weak var nextSongButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,13 +31,13 @@ class PlaybackController: UIViewController {
         albumImageBackgroundView.layer.shadowOffset = CGSize(width: 0, height: 6)
     }
 
-    @IBAction func didTapPreviousButton(_ sender: UIButton) {
+    @IBAction func didTapPreviousSongButton(_ sender: UIButton) {
     }
     
     @IBAction func didTapPlayPauseButton(_ sender: UIButton) {
     }
     
-    @IBAction func didTapNextButton(_ sender: UIButton) {
+    @IBAction func didTapNextSongButton(_ sender: UIButton) {
     }
     
 }
