@@ -28,6 +28,14 @@ class PlaybackController: UIViewController {
         albumImageBackgroundView.layer.shadowOffset = CGSize(width: 0, height: 6)
     }
 
-
+    @IBAction func didTapPreviousButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func didTapPlayPauseButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func didTapNextButton(_ sender: UIButton) {
+    }
+    
 }
 
