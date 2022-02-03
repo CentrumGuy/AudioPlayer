@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C791E1A927ABB37300004F07 /* Johannes Bornlöf - Reminiscence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C791E1A827ABB37300004F07 /* Johannes Bornlöf - Reminiscence.mp3 */; };
+		C791E1B027ABB4DC00004F07 /* Coldplay - In My Place.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C791E1AE27ABB4DC00004F07 /* Coldplay - In My Place.m4a */; };
+		C791E1B127ABB4DC00004F07 /* The Chainsmokers - Takeaway (ft. Lennon Stella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C791E1AF27ABB4DC00004F07 /* The Chainsmokers - Takeaway (ft. Lennon Stella).mp3 */; };
 		C7BCEB1627AB8C9800B1D797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BCEB1527AB8C9800B1D797 /* AppDelegate.swift */; };
 		C7BCEB1827AB8C9800B1D797 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BCEB1727AB8C9800B1D797 /* SceneDelegate.swift */; };
 		C7BCEB1A27AB8C9800B1D797 /* PlaybackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BCEB1927AB8C9800B1D797 /* PlaybackController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C791E1A827ABB37300004F07 /* Johannes Bornlöf - Reminiscence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Johannes Bornlöf - Reminiscence.mp3"; sourceTree = "<group>"; };
+		C791E1AE27ABB4DC00004F07 /* Coldplay - In My Place.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Coldplay - In My Place.m4a"; sourceTree = "<group>"; };
+		C791E1AF27ABB4DC00004F07 /* The Chainsmokers - Takeaway (ft. Lennon Stella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Chainsmokers - Takeaway (ft. Lennon Stella).mp3"; sourceTree = "<group>"; };
 		C7BCEB1227AB8C9800B1D797 /* AudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BCEB1527AB8C9800B1D797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7BCEB1727AB8C9800B1D797 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C791E1A727ABB36B00004F07 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				C791E1A827ABB37300004F07 /* Johannes Bornlöf - Reminiscence.mp3 */,
+				C791E1AE27ABB4DC00004F07 /* Coldplay - In My Place.m4a */,
+				C791E1AF27ABB4DC00004F07 /* The Chainsmokers - Takeaway (ft. Lennon Stella).mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		C7BCEB0927AB8C9800B1D797 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +74,7 @@
 		C7BCEB1427AB8C9800B1D797 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				C791E1A727ABB36B00004F07 /* Audio */,
 				C7BCEB2927AB901500B1D797 /* Custom UI Elements */,
 				C7BCEB1527AB8C9800B1D797 /* AppDelegate.swift */,
 				C7BCEB1727AB8C9800B1D797 /* SceneDelegate.swift */,
@@ -136,7 +153,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C791E1A927ABB37300004F07 /* Johannes Bornlöf - Reminiscence.mp3 in Resources */,
 				C7BCEB2227AB8C9900B1D797 /* LaunchScreen.storyboard in Resources */,
+				C791E1B027ABB4DC00004F07 /* Coldplay - In My Place.m4a in Resources */,
+				C791E1B127ABB4DC00004F07 /* The Chainsmokers - Takeaway (ft. Lennon Stella).mp3 in Resources */,
 				C7BCEB1F27AB8C9900B1D797 /* Assets.xcassets in Resources */,
 				C7BCEB1D27AB8C9800B1D797 /* Main.storyboard in Resources */,
 			);
