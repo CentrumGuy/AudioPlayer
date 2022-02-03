@@ -21,7 +21,6 @@ class PlaybackController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         stackView.spacing = view.bounds.height/32
         
