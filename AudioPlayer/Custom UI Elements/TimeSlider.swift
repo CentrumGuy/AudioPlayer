@@ -306,7 +306,7 @@ open class TimeSlider: UIView, UIGestureRecognizerDelegate {
     // MARK: - Overriden Methods
     
     override open func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
-        return bounds.insetBy(dx: -32, dy: 0).offsetBy(dx: 0, dy: -10).contains(point)
+        return bounds.offsetBy(dx: 0, dy: -10).insetBy(dx: -32, dy: 0).contains(point)
     }
     
     override open func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
